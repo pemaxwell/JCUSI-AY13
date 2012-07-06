@@ -1,0 +1,7 @@
+This python script sets up ip packet forwarding on the packbot using ip tables.
+After changing the IPs below for the payload, packbot and ocu run this script on 
+the packbot by using the command: python ipforward.py.
+Once installed when the ocu sends tcp packets to the packbot and the port is between
+50000 and 60000 the ip table will forward the tcp packets to the payload.
+So from the point of the view of the ocu, the process on the payload
+would seem like it was actually running on the packbot.

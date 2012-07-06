@@ -1,0 +1,29 @@
+Install instructions for RTP video example (Ubuntu 9.04):
+
+Dependencies:
+-jrtplib 3.8.1
+	Download from: http://research.edm.uhasselt.be/~jori/page/index.php?n=CS.Jrtplib
+	Extract file
+	Open a terminal and navigate to <folderPath>/jrtplib-3.8.1.
+	Enter the following commands:
+		-./configure
+		-make
+		-sudo make install
+-build-essential, cmake
+-xi, xmu, OpenGL
+-ffmpeg, libavcodec-dev, libswscale-dev, libavformat-dev
+
+	sudo apt-get install build-essential libxi-dev libxmu-dev freeglut3-dev \
+                             libgl1-mesa-dev cmake ffmpeg libavcodec52 \
+                             libavcodec-dev libswscale-dev libavformat-dev
+
+Building Example:
+-Open terminal and navigate to <PathToAware2IntegratorFolder>/Examples/RTPVideoExamples
+-Enter the following commands (Note the period after cmake):
+	-cmake .
+	-make
+
+Running Example:
+-Make sure the robot is currently running a session and has an arm with cameras attached.
+-Open terminal and navigate to <PathToAware2IntegratorFolder>/Examples/RTPVideoExamples
+-Enter ./VideoExample

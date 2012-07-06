@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/VideoExample.dir/VideoStream.cpp.o CMakeFiles/VideoExample.dir/VideoExample.cpp.o  -o VideoExample -rdynamic -L/usr/local/lib -lavcodec -lavformat -lavutil -lpthread -lswscale -lglut -lGL -lGLU -ljrtp -lX11 -lXi -lXmu -lm -Wl,-rpath,/usr/local/lib 

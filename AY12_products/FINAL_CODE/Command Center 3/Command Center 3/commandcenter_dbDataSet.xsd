@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="commandcenter_dbDataSet" targetNamespace="http://tempuri.org/commandcenter_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/commandcenter_dbDataSet.xsd" xmlns="http://tempuri.org/commandcenter_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="connString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="connString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Command_Center_3.Properties.Settings.GlobalReference.Default.connString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="target_viewTableAdapter" GeneratorDataComponentClassName="target_viewTableAdapter" Name="target_view" UserDataComponentName="target_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="connString (Settings)" DbObjectName="def.commandcenter_db.target_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID`, `Latitude`, `Longitude`, `Time_Identified`, `Tasked_Robot` FROM `commandcenter_db`.`target_view`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Latitude" DataSetColumn="Latitude" />
+              <Mapping SourceColumn="Longitude" DataSetColumn="Longitude" />
+              <Mapping SourceColumn="Time_Identified" DataSetColumn="Time_Identified" />
+              <Mapping SourceColumn="Tasked_Robot" DataSetColumn="Tasked_Robot" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="commandcenter_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="commandcenter_dbDataSet" msprop:Generator_UserDSName="commandcenter_dbDataSet" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="target_view" msprop:Generator_UserTableName="target_view" msprop:Generator_RowDeletedName="target_viewRowDeleted" msprop:Generator_TableClassName="target_viewDataTable" msprop:Generator_RowChangedName="target_viewRowChanged" msprop:Generator_RowClassName="target_viewRow" msprop:Generator_RowChangingName="target_viewRowChanging" msprop:Generator_RowEvArgName="target_viewRowChangeEvent" msprop:Generator_RowEvHandlerName="target_viewRowChangeEventHandler" msprop:Generator_TablePropName="target_view" msprop:Generator_TableVarName="tabletarget_view" msprop:Generator_RowDeletingName="target_viewRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:unsignedInt" />
+              <xs:element name="Latitude" msprop:Generator_UserColumnName="Latitude" msprop:Generator_ColumnPropNameInRow="Latitude" msprop:Generator_ColumnVarNameInTable="columnLatitude" msprop:Generator_ColumnPropNameInTable="LatitudeColumn" type="xs:double" />
+              <xs:element name="Longitude" msprop:Generator_UserColumnName="Longitude" msprop:Generator_ColumnPropNameInRow="Longitude" msprop:Generator_ColumnVarNameInTable="columnLongitude" msprop:Generator_ColumnPropNameInTable="LongitudeColumn" type="xs:double" />
+              <xs:element name="Time_Identified" msprop:Generator_UserColumnName="Time_Identified" msprop:Generator_ColumnPropNameInRow="Time_Identified" msprop:Generator_ColumnVarNameInTable="columnTime_Identified" msprop:Generator_ColumnPropNameInTable="Time_IdentifiedColumn" type="xs:dateTime" />
+              <xs:element name="Tasked_Robot" msprop:Generator_UserColumnName="Tasked_Robot" msprop:Generator_ColumnPropNameInRow="Tasked_Robot" msprop:Generator_ColumnVarNameInTable="columnTasked_Robot" msprop:Generator_ColumnPropNameInTable="Tasked_RobotColumn" type="xs:unsignedInt" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:target_view" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

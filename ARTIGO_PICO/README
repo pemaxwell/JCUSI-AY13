@@ -1,0 +1,65 @@
+PICO
+  useful links:
+	http://www.via.com.tw/en/products/embedded/artigo/a1000/index.jsp
+
+  hostname: usmanbddxbot10
+  username: xbot
+  Chipset: VX700 Unified Digital Media IGP Chipset (to verify type lspci | grep VGA)
+
+  ctrl+alt+del to restart and enter bios
+  del to enter bios
+  To boot from USB, from within BIOS set the following:
+	General Idea: Tell it to boot from hard drive (should already be set this way). Then Tell it to boot from USB.
+		1. Make sure the USB device is in one of the USB ports before powering up
+		2. Get into the BIOS by hitting the ‘del’ button after powering up
+		3. In the BIOS, select ‘Advanced’ and then ‘USB Configuration’
+		4. In ‘USB Configuration’, select ‘USB Mass Storage Device Configuration’ (note:  this option will not be available if the USB device was not plugged into the USB port before powering up)
+		5.In ‘USB Mass Storage Device Configuration’ for the USB device, select ‘Emulation Type’ -> ‘Hard Disk’  (this identifies in the BIOS that this device will be a hard disk emulation and can be a bootable device
+		6. Hit the ‘Esc’ key twice and get to the top menu in the BIOS.  Open the ‘Boot’ menu.
+		7. In the ‘Boot Settings’ window, select ‘Hard Disk Drives’
+		8. In the ‘Hard Disk Drives’ menu, select the USB drive as the ‘1st Drive’ and the SATA drive as the ‘2nd Drive’
+		9. Hit ‘Esc’ key once to get back to the ‘Boot Settings’ window
+		10.In the ‘Boot Settings’ window select ‘Boot Device Priority’
+		11.In the ‘Boot Device Priority’ window make the ‘1st Boot Device’ the USB hard drive and the ‘2nd Boot Device’ the SATA drive
+		12.Hit F10 and save the configuration, the BIOS should reboot with the new settings and boot from the USB drive
+		13.If booting in Ubuntu, you may have to use the text setup interface (not the graphical interface), I got into this by hitting the ‘del’ button once I saw the Ubuntu screen.
+
+
+VIDEO DRIVER
+
+Possible solution for Artigo 1100 video (look at page 2 for a possible solution (post #13, read it in context to the previous posts):
+http://www.linuxforums.org/forum/ubuntu-help/164163-graphics-problem.html
+
+  Useful Links:
+	http://www.via.com.tw/en/support/drivers.jsp
+	https://help.ubuntu.com/community/UniChrome
+	https://help.ubuntu.com/community/NC20#openchrome_svn
+	http://ubuntuforums.org/showthread.php?t=196661
+	http://www.openchrome.org/releases/
+	http://www.linux.com/news/software/applications/8201-editing-basics-for-the-xorgconf-file
+	http://tldp.org/HOWTO/Module-HOWTO/x197.html#AUTOLOAD
+	google Ubuntu + Pico-ITX display resolution
+
+  If you do not have the appropriate resolution then download video drivers from http://www.via.com.tw/en/support/drivers.jsp and http://www.openchrome.org/releases/. I downloaded via-xserver-86a50283.src.tgz and xf86-video-openchrome-0.2.904.tar.gz.  Note that the via-xserver was actually a bzip file so you have to use the tar -xvjf to untar/zip it (bzip should work also).  I am not sure if you need to use the openchrome driver. I built it but don't think I am using it.  Build and intstall the drivers using the READMEs inside the directories. You also may have to modify the /etc/X11/xorg.conf file.  Use the example conf files in the folders as a guide.  Build/install DRM first, then XServer
+
+  To Test Video drivers (sort of worked):
+     ctrl/Alt/F2   (switch to tty2)
+     login
+     xinit -- :2
+     If everything is right you should see a Grey desktop, and X for the mouse cursor and a term window. You can test glxinfo in the term if direct rendering is what you are working on. 
+
+      Ctrl / Alt / Backspace to kill the Xwindow.
+      Ctrl / Alt / F7 back to the Gnome Desktop
+      Ctrl / Alt / F8 - If you didn't kill the Grey Xwindow you will find it again by hitting 
+
+      Check the log to see what happened under /var/log/Xorg.2.log.
+
+     OR try xnest (have to download it). xnest :1 -geometry 320x240 or gdmflexiserver --xnest
+
+Useful Commands
+	> modinfo via
+	> lspci | grep VGA (determine video chipset).
+  	> glxinfo | grep render -> direct rendering should be yes.
+	> htop
+	> xrandr --output default --mode 1280x720
+     

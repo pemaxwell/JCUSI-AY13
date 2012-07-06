@@ -1,0 +1,46 @@
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.exe.config
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.exe
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.pdb
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Interop.AXVLC.dll
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Interop.AXVLC.dll
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.csproj.ResolveComReference.cache
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Add_Target.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Clear_Database_Confirm.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Clear_All_Targets_Confirm.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Delete_Robot.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Delete_Target.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Edit_Robots.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.EndEx_Confirm.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Edit_Target.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Main_Window.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Properties.Resources.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Register_Robot.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.csproj.GenerateResource.Cache
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.exe
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.pdb
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.About.resources
+C:\Users\x15270\Documents\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Settings.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.exe.config
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Interop.AXVLC.dll
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.csproj.ResolveComReference.cache
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.exe
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.pdb
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.exe
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Command Center 3.pdb
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\bin\Debug\Interop.AXVLC.dll
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\ResolveAssemblyReference.cache
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.About.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Add_Target.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Clear_Database_Confirm.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Clear_All_Targets_Confirm.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Delete_Robot.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Delete_Target.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Edit_Robots.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.EndEx_Confirm.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Edit_Target.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Main_Window.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Properties.Resources.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Register_Robot.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command_Center_3.Settings.resources
+C:\PUBLIC\Visual Studio 2008\Projects\Command Center 3\Command Center 3\obj\Debug\Command Center 3.csproj.GenerateResource.Cache

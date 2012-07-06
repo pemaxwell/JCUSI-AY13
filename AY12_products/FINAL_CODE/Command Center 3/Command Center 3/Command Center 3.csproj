@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8813A138-0FBC-4DEB-BF85-B4D0B5868DFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Command_Center_3</RootNamespace>
+    <AssemblyName>Command Center 3</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Target.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Target.Designer.cs">
+      <DependentUpon>Add_Target.cs</DependentUpon>
+    </Compile>
+    <Compile Include="commandcenter_dbDataSet.cs">
+      <DependentUpon>commandcenter_dbDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="commandcenter_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>commandcenter_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clear_Database_Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clear_Database_Confirm.Designer.cs">
+      <DependentUpon>Clear_Database_Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clear_All_Targets_Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clear_All_Targets_Confirm.Designer.cs">
+      <DependentUpon>Clear_All_Targets_Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Robot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Robot.Designer.cs">
+      <DependentUpon>Delete Robot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Target.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Target.Designer.cs">
+      <DependentUpon>Delete_Target.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Robots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Robots.Designer.cs">
+      <DependentUpon>Edit_Robots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EndEx_Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndEx_Confirm.Designer.cs">
+      <DependentUpon>EndEx_Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Target.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Target.Designer.cs">
+      <DependentUpon>Edit_Target.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibVlc.cs" />
+    <Compile Include="Main_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Window.Designer.cs">
+      <DependentUpon>Main_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Target.resx">
+      <DependentUpon>Add_Target.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clear_Database_Confirm.resx">
+      <DependentUpon>Clear_Database_Confirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clear_All_Targets_Confirm.resx">
+      <DependentUpon>Clear_All_Targets_Confirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Robot.resx">
+      <DependentUpon>Delete Robot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Target.resx">
+      <DependentUpon>Delete_Target.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Robots.resx">
+      <DependentUpon>Edit_Robots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndEx_Confirm.resx">
+      <DependentUpon>EndEx_Confirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Target.resx">
+      <DependentUpon>Edit_Target.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Window.resx">
+      <DependentUpon>Main_Window.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_Robot.resx">
+      <DependentUpon>Register_Robot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="commandcenter_dbDataSet.xsc">
+      <DependentUpon>commandcenter_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="commandcenter_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>commandcenter_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="commandcenter_dbDataSet.xss">
+      <DependentUpon>commandcenter_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register_Robot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_Robot.Designer.cs">
+      <DependentUpon>Register_Robot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaticMap.cs" />
+    <Compile Include="VLC.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
