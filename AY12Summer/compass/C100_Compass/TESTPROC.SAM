@@ -1,0 +1,1134 @@
+[ver]
+	4
+[sty]
+	
+[files]
+[charset]
+	82
+	ANSI (Windows, IBM CP 1252)
+[revisions]
+	0
+[prn]
+	Epson LQ-1170 ESC/P 2
+[port]
+	LPT2:
+[lang]
+	1
+[desc]
+	
+	
+	
+	
+	
+	736547448
+	7
+	735436398
+	130
+	4
+	0
+	0
+	0
+	0
+	
+	
+	
+	
+	
+	
+	1
+[fopts]
+	0
+	1
+	0
+	0
+[lnopts]
+	2
+	Body Text
+	1
+[docopts]
+	5
+	2
+[GramStyle]
+	
+[tag]
+	Body Text
+	2
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Body Text
+	0
+	0
+[tag]
+	Body Single
+	3
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Body Single
+	0
+	0
+[tag]
+	Bullet
+	4
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		288
+		288
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*0>
+		360
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Bullet
+	0
+	0
+[tag]
+	Bullet 1
+	5
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		288
+		288
+		288
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*5>
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Bullet 1
+	0
+	0
+[tag]
+	Number List
+	6
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		360
+		360
+		360
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*:>.
+		360
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Number List
+	0
+	0
+[tag]
+	Subhead
+	7
+	[fnt]
+		Times New Roman
+		240
+		0
+		49155
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		72
+		72
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		2
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Subhead
+	0
+	0
+[tag]
+	Title
+	8
+	[fnt]
+		Arial
+		360
+		0
+		16385
+	[algn]
+		4
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		446
+		1
+		144
+		72
+		1
+		100
+	[brk]
+		16
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		1
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Title
+	0
+	0
+[tag]
+	Header
+	9
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Header
+	0
+	0
+[tag]
+	Footer
+	11
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Footer
+	0
+	0
+[lay]
+	Standard
+	513
+	[rght]
+		15840
+		12240
+		1
+		1440
+		1440
+		1
+		1440
+		1440
+		0
+		1
+		0
+		1
+		0
+		2
+		1
+		1440
+		10800
+		12
+		1
+		720
+		1
+		1440
+		1
+		2160
+		1
+		2880
+		1
+		3600
+		1
+		4320
+		1
+		5040
+		1
+		5760
+		1
+		6480
+		1
+		7200
+		1
+		7920
+		1
+		8640
+	[hrght]
+	[lyfrm]
+		1
+		11200
+		0
+		0
+		12240
+		1440
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		1
+	[frmlay]
+		1440
+		12240
+		1
+		1440
+		72
+		1
+		792
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+	[frght]
+	[lyfrm]
+		1
+		13248
+		0
+		14400
+		12240
+		15840
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		2
+	[frmlay]
+		15840
+		12240
+		1
+		1440
+		792
+		1
+		14472
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+[elay]
+[lay]
+	1
+	513
+	[rght]
+		15840
+		12240
+		1
+		1440
+		1440
+		1
+		1440
+		1440
+		0
+		0
+		0
+		0
+		0
+		0
+		1
+		1440
+		10800
+		12
+		1
+		720
+		1
+		1440
+		1
+		2160
+		1
+		2880
+		1
+		3600
+		1
+		4320
+		1
+		5040
+		1
+		5760
+		1
+		6480
+		1
+		7200
+		1
+		7920
+		1
+		8640
+	[hrght]
+	[lyfrm]
+		1
+		11200
+		0
+		0
+		12240
+		1440
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		3
+	[frmlay]
+		1440
+		12240
+		1
+		1440
+		72
+		1
+		792
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+	[frght]
+	[lyfrm]
+		1
+		13248
+		0
+		14400
+		12240
+		15840
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		4
+	[frmlay]
+		15840
+		12240
+		1
+		1440
+		792
+		1
+		14400
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+[elay]
+[l1]
+	1
+[pg]
+	4
+	33 0 29 0 0 0 0 65535 2 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 0 0 0 0 0
+	67 670 91 32 0 0 0 65535 305 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 0 0 0 0 0
+	103 0 3 0 0 0 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 0 0 0 0 0
+	118 0 0 1025 0 0 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 0 0 0 0 0
+[edoc]
+<+B><:s><:#432,9360><:f360,2Times New Roman,0,0,0><+!>C100 User Program<-!>
+
+<+B><:s><:#432,9360><+!><:f360,2Times New Roman,0,0,0>Engineering Test Procedure<-!><:f>
+
+<+C><:s><:#280,9360><:f>
+
+<:s><:#280,9360>
+
+<+C><:s><:#848,9360><:f240,2Times New Roman,0,0,0><+!>Important:  <-!>This document is intended to serve as a guide to testing the C100 User Program.  It should not be viewed as a 'bible', but simply as a set of guidelines that test the major functions of the program.<:f>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#288,9360><:f240,2Times New Roman,0,0,0>1.0	<+#><+!>Overview<-!><-#>
+
+<+C><:I0,0,720,0><:#840,9360><:f240,2Times New Roman,0,0,0>	The C100 User Program allows owners of C100 compasses to configure their units to their specific requirements via an easy-to-use menu driven interface.  It also provides low level control by means of a terminal emulation mode 
+customized for the C100.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,1440,0><:#568,9360><:f240,2Times New Roman,0,0,0>1.1		<+!>Setup<-!> - This option allows the user to select the COM port and baud rate to use to communicate with the C100.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,1440,0><:#568,9360><:f240,2Times New Roman,0,0,0>1.2	<+!>	Parameters<-!> - This option provides an easy-to-use interface to the C100 that allows modification of all the commonly used configuration parameters.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:I0,0,1440,0><:#568,9360><:f240,2Times New Roman,0,0,0>1.3		<+!>Terminal Mode<-!> - This option provides a tailored terminal emulator to directly communicate with the C100.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,1440,0><:#568,9360><:f240,2Times New Roman,0,0,0>1.4		<+!>Calibrate<-!> - This option displays a sub-menu from which the desired calibration type can be selected.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:I0,0,1440,0><:#288,9360><:f240,2Times New Roman,0,0,0>1.5	<+!>	Quit<-!> - This option exits the program and returns control to the operating system.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#288,9360><:f240,2Times New Roman,0,0,0>2.0	<+#><+!>Test Procedure<-!><-#>
+
+<+C><:s><:I0,0,720,0><:#560,9360><:f240,2Times New Roman,0,0,0>	Insert the floppy diskette containing the C100 User Program into drive A, and type the following:
+
+<+C><:s><:#288,9360><:f240,2Times New Roman,0,0,0>			<+!>A:
+
+<+C><:#288,9360><+!><:f240,2Times New Roman,0,0,0>			C100USR<-!>
+
+<+C><:s><:I0,0,720,0><:#560,9360><:f240,2Times New Roman,0,0,0>	The User program will now load into memory and start running.  A menu of choices will be displayed on the screen from which your selections can be made.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>2.1	<+#>Setup<-#>
+
+<+C><:s><:I0,0,720,0><:#568,9360><:f240,2Times New Roman,0,0,0>	Move the menu bar to the <+!>Setup<-!> option using the left and right cursor keys.  Once it is highlighted, press<:f240,BRRKeyCaps,0,0,0> 
+<+!>R<-!><:f240,2Times New Roman,0,0,0>.  You will see the following screen:
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+B><:I0,0,0,0><:S+-1><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\I><\M><\M><\M><\M><:><[>System Default Setup]<\M><\M><\M><\M><\M></{>
+
+<+B><:I0,0,0,0><:S+-1><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:><:f240,QVideo Terminal Screen,0,0,0></z>  <\Z><[>Port]<\D><\D></><:>    
+<\Z><[>Baud]<\D><\D><\D></><:>    </z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  </s><:>( ) COM1</s><:>    
+</s><:>( ) 9600 </s><:>    </z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  </s><:>( ) COM2</s><:>    
+</s><:>( ) 4800 </s><:>    </z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  </s><:>( ) COM3</s><:>    
+</s><:>( ) 2400 </s><:>    </z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  </s><:>( ) COM4</s><:>    
+</s><:>( ) 1200 </s><:>    </z>
+
+<+B><:R><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  <\@><\D><\D><\D><\D><\D><\D><\D><\D><\Y>    
+</s><:>( ) 600  </s><:>    </z>
+
+<+B><:s><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                </s><:>( ) 300  
+</s><:>    </z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                <\@><\D><\D><\D><\D><\D><\D><\D><\D><\D><\Y>    
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                               
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                               
+</z>
+
+<+B><:s><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  <[>X] Echo characters?         
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                               
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>  <[> ] Display unprintables?    
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                               
+</z>
+
+<+B><:s><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>      OK             CANCEL    
+</z>
+
+<+B><:I0,0,0,0><:S+-1><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></z>                               
+</z>
+
+<+B><:I0,0,0,0><:R1,12,1,720,1,1440,1,2160,1,2880,1,3600,1,4320,1,5040,1,5760,1,6480,1,7200,1,7920,1,8640,><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\H><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M><\M></|><:f>
+
+<+C><:R><:#280,9360><:f><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#288,9360><:f240,2Times New Roman,0,0,0>	Now, use the up and down cursor keys to select the desired COM port and press<+!> 
+<:f240,BRRKeyCaps,0,0,0><-!><+!>R<-!><:f240,2Times New Roman,0,0,0>.
+
+<+C><:s><:I0,0,720,0><:#560,9360><:f240,2Times New Roman,0,0,0>	Use the up and down cursor keys again to select the required baud rate (the default is 4800), and press<:f240,BRRKeyCaps,0,0,0><+!> R<-!><:f240,2Times New Roman,0,0,0>.
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#568,9360><:f240,2Times New Roman,0,0,0>	Use the <:f240,BRRKeyCaps,0,0,0><+!>s<-!><:f240,2Times New Roman,0,0,0> to toggle the checkmark on the 
+<+!>Echo Characters<-!> option to the desired setting (default if ON) and press 
+<:f240,BRRKeyCaps,0,0,0><+!>R<-!><:f240,2Times New Roman,0,0,0>.<:f>
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#576,9360><:f240,2Times New Roman,0,0,0>	<-!><:f><:f240,2Times New Roman,0,0,0>Use the 
+<:f240,BRRKeyCaps,0,0,0><+!>s<-!><:f240,2Times New Roman,0,0,0> to toggle the checkmark on the 
+<+!>Display Unprintables<-!> option to the desired setting (default if OFF) and press<+!> 
+<:f240,BRRKeyCaps,0,0,0>R<-!><:f240,2Times New Roman,0,0,0>.
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#1144,9360><:f240,2Times New Roman,0,0,0>	Now select either the <+!>OK<-!> or 
+<+!>CANCEL<-!> buttons using <:f240,BRRKeyCaps,0,0,0><+!>T<-!><:f240,2Times New Roman,0,0,0> and 
+<:f240,BRRKeyCaps,0,0,0><+!>ST<-!><:f240,2Times New Roman,0,0,0> and press 
+<:f240,BRRKeyCaps,0,0,0><+!>R<-!><:f240,2Times New Roman,0,0,0>.  Pressing the 
+<+!>OK<-!> button will accept any changes made, and <+!>CANCEL<-!> will discard them<:f><:f240,2Times New Roman,0,0,0>.<:f><-!><:f240,2Times New Roman,0,0,0> To verify that the values have been stored correctly,<+!> 
+<-!>use the <+!>Terminal Mode<-!> option to communicate with the C100.
+
+<+C><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#840,9360><:f240,2Times New Roman,0,0,0>	Once you have made changes to the setup, exit and restart the program and then come back to the Setup option and verify that the settings you made earlier have been maintained between sessions.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>2.2	<+#>Parameters<-#>
+
+<+C><:I0,0,720,0><:f240,2Times New Roman,0,0,0>	<:f240,2Times New Roman,0,0,0>Move the menu bar to the 
+<+!>Parameters<-!> option using the <:f240,BRRKeyCaps,0,0,0><+!>l<-!><:f240,2Times New Roman,0,0,0> and 
+<:f240,BRRKeyCaps,0,0,0><+!>r<-!><:f240,2Times New Roman,0,0,0> keys.  Once it is highlighted, press 
+<:f240,BRRKeyCaps,0,0,0><-!><+!>R<-!><:f240,2Times New Roman,0,0,0>.  A form will now be displayed, and a blinking message at the bottom of the screen will tell you that the program is reading the required information from the compass.  If an error is detec
+ted while reading this data, a message to this effect will be displayed on the screen, and you will be returned to the main menu.  If an error does occur, first check that the COM port and baud rate settings are correct.  If they are, try going into 
+<+!>Parameters<-!> mode again - most communications faults of this nature will disappear on subsequent tries.  
+<:f><-!>
+
+<+C><:s><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#560,9360>	Once the parameters have been read from the C100, the display will look similar the following:
+
+<+B><:I0,0,720,0><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\Z><\D><[>General]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\B><\D><[>Serial]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></><:>
+
+<+B><:s><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>    Serial Number: 1120072  
+</s>     Baud Rate: 4800 </s>
+
+<+B><:s><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>        Unit Type: C100     
+</s>  Message Rate: 600  </s>
+
+<+B><:s><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s> Calibration Date: 99/99/99 
+</s>  Message Type: 0    </s>
+
+<+B><:s><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>     Hardware Rev: B        
+</s> Message Units: d    </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>     Software Rev: D        
+</s>                     </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>                            
+<\C><\D><[>Digital]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></t>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\C><\D><[>Variation/Declination]<\D><\D><\D><\D></t>   Output Type: 1    
+</s>
+
+<+B><:s><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>     Heading Type: MAGNETIC 
+</s> Output Format: 1    </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>        Variation:    0.0   
+</s>                     </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>       'A' offset:    0.0   
+<\C><\D><[>Analog]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></t>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>                            
+</s> Output Format: 0    </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\C><\D><[>Power-Up Mode]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></t>                     
+</s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>  Powerup Mode: SENDING     
+<\C><\D><[>Damping]<\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></t>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>                            
+</s>          Type: 2    </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>                            
+</s>          Rate: 0    </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>                            
+</s>                     </s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\C><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\A><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D></t>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s> ESC-Quit without update.  F2-Display choice list 
+</s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s> F10-Update and exit.         (if any).           
+</s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0></s>  ^S-Set Defaults.         ^D-Restore Defaults    
+</s>
+
+<+B><:#248,9360><:f240,QVideo Terminal Screen,0,0,0><\@><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\D><\Y><:f>
+
+<+C><:#280,9360><:><:f><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#840,9360><:f240,2Times New Roman,0,0,0>	<:f><:f240,2Times New Roman,0,0,0>Use the 
+<:f240,BRRKeyCaps,0,0,0><+!>T<-!><:f240,2Times New Roman,0,0,0> and<:f240,BRRKeyCaps,0,0,0> 
+<+!>R<-!><:f240,2Times New Roman,0,0,0> keys to advance from one data field to the next, and 
+<:f240,BRRKeyCaps,0,0,0><+!>S T<-!><:f240,2Times New Roman,0,0,0> to move back to the previous one.  In addition, the 
+<:f240,BRRKeyCaps,0,0,0><+!>t<-!><:f240,2Times New Roman,0,0,0> and 
+<:f240,BRRKeyCaps,0,0,0><+!>b<-!><:f240,2Times New Roman,0,0,0> cursor keys perform similar functions.
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:s><:I0,0,720,0><:#560,9360><:f240,2Times New Roman,0,0,0>	For each data field, a message is displayed on the bottom line of the screen, indicating what actions can be performed for that field.  
+
+<+C><:s><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#1128,9360><:f240,2Times New Roman,0,0,0>	Certain fields cannot be directly entered - for these fields a list of valid values can be displayed by pressing the 
+<:f240,BRRKeyCaps,0,0,0><-!><+!>2<-!><:f240,2Times New Roman,0,0,0> key.  Once the choice list is displayed,  the desired value can be selected using the 
+<:f><:f240,BRRKeyCaps,0,0,0><+!>t<-!><:f><:f240,2Times New Roman,0,0,0> and 
+<:f><:f240,BRRKeyCaps,0,0,0><+!>b<-!><:f><:f240,2Times New Roman,0,0,0> cursor keys, and accepted by pressing<+!> 
+<:f240,BRRKeyCaps,0,0,0><-!><+!>R<-!><:f240,2Times New Roman,0,0,0>.  If you wish to leave the contents of the field unchanged, press<:f240,BRRKeyCaps,0,0,0> 
+<+!>E<-!><:f240,2Times New Roman,0,0,0>.<:f>
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#840,9360><:f240,2Times New Roman,0,0,0>	If you have a number of units that need to be set up identically, you can store the settings currently on the display by pressing 
+<:f240,BRRKeyCaps,0,0,0><+!>C<-!><:f240,2Times New Roman,0,0,0>-S.<-!><:f><:f240,2Times New Roman,0,0,0>  Once these settings have been stored, they can be recalled for subsequent units by pressing 
+<:f240,BRRKeyCaps,0,0,0><+!>C-<-!><:f240,2Times New Roman,0,0,0>D.
+
+<+C><:s><:I0,0,720,0><:#280,9360><:f240,2Times New Roman,0,0,0>
+
+<+C><:I0,0,720,0><:#560,9360><:f240,2Times New Roman,0,0,0>	<:f240,2Times New Roman,0,0,0>Once all the desired changes have been made, press 
+<:f240,BRRKeyCaps,0,0,0><+!>0<-!><:f240,2Times New Roman,0,0,0>  to write these change to the C100's EEPROM.  If you wish to discard all the changes, press 
+<:f240,BRRKeyCaps,0,0,0><+!>E<-!><:f240,2Times New Roman,0,0,0>.<:f>
+
+<+C><:s><:#280,9360><:f>
+
+<+C><:I0,0,720,0><:#280,9360><:f>
+
+<+C><:I0,0,720,0><:#280,9360>2.3	<+#>Terminal Mode<-#>
+
+<+C><:I0,0,720,0><:#1408,9360>	Move the menu bar to the <+!>Terminal Mode<-!> selection using the 
+<:f240,BRRKeyCaps,0,0,0><+!>l<-!><:f> and <:f240,BRRKeyCaps,0,0,0><+!>r<-!><:f> keys and press 
+<:f240,BRRKeyCaps,0,0,0><+!>R<-!><:f>.  A window will now be displayed through which you can communicate directly with the C100 using the keyboard.   Verify that you can both send data to and receive data from the C100.  If you are unable to communicate, ch
+eck that COM port and baud rate settings are correct - these are displayed on the bottom line of the screen.  
+
+<+C><:s><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#280,9360>	Once you are finished, press <:f240,BRRKeyCaps,0,0,0><+!>E<-!><:f> to return to the main menu.
+
+<+C><:I0,0,720,0><:#280,9360>	
+
+<+C><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#280,9360>2.4	<+#>Calibrate<-#>
+
+<+C><:I0,0,720,0>	Move the menu bar to the<+!> Calibrate<-!> selection using the <:f240,BRRKeyCaps,0,0,0><+!>l<-!><:f> and 
+<:f240,BRRKeyCaps,0,0,0><+!>r<-!><:f> keys and press <:f240,BRRKeyCaps,0,0,0><+!>R<-!><:f>.  A sub-menu will be displayed with additional choices.  Use the 
+<:f240,BRRKeyCaps,0,0,0><+!>t<-!><:f> and<:f240,BRRKeyCaps,0,0,0><+!> 
+<-!>b<:f> keys to select the appropriate calibration type and press 
+<:f240,BRRKeyCaps,0,0,0><+!>R<-!><:f>.  Follow the instructions displayed to calibrate the C100.
+
+<+C><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#280,9360>	After testing each of the calibration options, press <:f240,BRRKeyCaps,0,0,0><+!>E<-!><:f> to return to the main menu.
+
+<+C><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#280,9360>
+
+<+C><:I0,0,720,0><:#280,9360>2.5	<+#>Quit<-#>
+
+<+C><:I0,0,720,0><:#280,9360>	This option will exit the program and return to DOS.
+
+<+C><:I0,0,720,0><:#280,9360>
+
+>
+
+[Embedded]
+00024516

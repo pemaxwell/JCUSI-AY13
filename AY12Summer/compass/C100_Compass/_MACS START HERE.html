@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<STYLE>
+BODY { background:url() no-repeat scroll top left }
+
+</STYLE>
+<TITLE>C100</TITLE>
+<script>
+function IsIE()
+{
+	var nav = navigator.appName;
+	return (nav.substring(0,9) == 'Microsoft');
+}
+function MaximizeWindow()
+{
+	window.moveTo(0, 0);
+	window.resizeTo(screen.availWidth, screen.availHeight);
+}
+function ResizeWindow(w, h)
+{
+	if (window.innerWidth)
+	{
+		window.innerWidth = w;
+		window.innerHeight = h;
+	}
+	else
+	{
+		//window.resizeTo(w, h); // this resizes window, but no way to find out the size of chrome(menu bar, etc)
+	}
+}
+function PlaySound(sound, bgsound)
+{
+	if (IsIE())
+	{
+		bgsound.src = sound.src;
+	}
+	else
+		sound.play;
+}
+function OpenMail(address)
+{
+	window.location = address;
+}
+function OpenLink(address)
+{
+	return window.open(address,null,'scrollbars=yes,status=yes,titlebar=yes,toolbar=yes,menubar=yes,location=yes,resizable=yes');
+}
+function OpenCustomLink(address, target, options)
+{
+	return window.open(address, target, options);
+}
+function OpenSwf(title, address, width, height, target, options)
+{
+	var str = '<TITLE>' + title + '</TITLE>\n';
+	str += '<HTML>\n<BODY>\n<center>\n<OBJECT CLASSID=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" ';
+	str += 'WIDTH=\"' + width + '\" HEIGHT=\"' + height + '\" ';
+	str += 'CODEBASE=\"http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0\" id=robodemo>\n';
+	str += '<PARAM NAME=movie VALUE=\"' + address + '\">\n';
+	str += '<PARAM NAME=play VALUE=true><PARAM NAME=loop VALUE=FALSE>\n<PARAM NAME=quality VALUE=high>\n';
+	str += '<EMBED NAME=robodemo SRC=\"' + address + '\" WIDTH=' + width + ' HEIGHT=' + height + ' loop=FALSE quality=high ';
+	str += 'TYPE=\"application/x-shockwave-flash\" PLUGINSPAGE=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\" swLiveConnect=true>\n';
+	str += '</EMBED>\n</OBJECT>\n</center>\n</BODY>\n</HTML>';
+
+	swfWindow = OpenCustomLink('', target, options);
+	swfWindow.document.write(str);
+}
+</script>
+</HEAD>
+<BODY background="" bgproperties="FIXED" bgcolor="#FFFFFF" onload="ResizeWindow(798, 580);" onunload="">
+<IMG style="cursor: default; position: absolute; left: 0px; top: 545px;" title="" onclick="" onmouseover="" src="_MACS START HERE_244.jpg">
+<IMG style="cursor: pointer; cursor: hand; position: absolute; left: 708px; top: 547px;" title="" onclick="OpenCustomLink('http://www.adobe.com/products/acrobat/readstep2.html', '_blank', '');" onmouseover="" src="_MACS START HERE_106.jpg">
+<IMG style="cursor: default; position: absolute; left: 0px; top: 0px;" title="" onclick="" onmouseover="" src="_MACS START HERE_260.jpg">
+<P style="cursor: default; position: absolute; left: 32px; top: 539px; text-decoration: none; font:  bold 11pt Arial; color: #FFFFFF" title="">© 2010, KVH Industries, Inc. All rights reserved.</P>
+<P style="cursor: default; position: absolute; left: 37px; top: 46px; text-decoration: none; font:  bold 24pt Arial; color: #9C1003" title="">Installation Disk</P>
+<P style="cursor: default; position: absolute; left: 100px; top: 106px; text-decoration: none; font:  bold 20pt Arial; color: #9C1003" title="">Documentation</P>
+<P style="cursor: pointer; cursor: hand; position: absolute; left: 117px; top: 167px; text-decoration: none; font:  bold 14pt Arial; color: #9C1003" title="" onclick="OpenLink('C100_manual.pdf');" onmouseover="this.style.color='#FFAA00'; " onmouseout="this.style.color='#9C1003';">Technical Manual</P>
+<P style="cursor: pointer; cursor: hand; position: absolute; left: 117px; top: 199px; text-decoration: none; font:  bold 14pt Arial; color: #9C1003" title="" onclick="OpenLink('DS_C100.pdf');" onmouseover="this.style.color='#FFAA00'; " onmouseout="this.style.color='#9C1003';">Data Sheet</P>
+<P style="cursor: pointer; cursor: hand; position: absolute; left: 474px; top: 167px; text-decoration: none; font:  bold 14pt Arial; color: #9C1003" title="" onclick="OpenLink('C100USR.EXE');" onmouseover="this.style.color='#FFAA00'; " onmouseout="this.style.color='#9C1003';">C100 Setup Program</P>
+<P style="cursor: default; position: absolute; left: 100px; top: 144px; text-decoration: none; font:  italic bold 12pt Arial; color: #9C1003" title="">(PDF files)</P>
+<P style="cursor: default; position: absolute; left: 459px; top: 299px; text-decoration: none; font:  bold 20pt Arial; color: #9C1003" title="">Technical Support</P>
+<P style="cursor: default; position: absolute; left: 459px; top: 106px; text-decoration: none; font:  bold 20pt Arial; color: #9C1003" title="">Software</P>
+<P style="cursor: default; position: absolute; left: 459px; top: 144px; text-decoration: none; font:  italic bold 12pt Arial; color: #9C1003" title="">(EXE file)</P>
+<P style="cursor: pointer; cursor: hand; position: absolute; left: 474px; top: 360px; text-decoration: none; font:  bold 14pt Arial; color: #9C1003" title="" onclick="OpenMail('mailto:fogsupport@kvh.com');" onmouseover="this.style.color='#FFAA00'; " onmouseout="this.style.color='#9C1003';">fogsupport@kvh.com</P>
+<P style="cursor: default; position: absolute; left: 459px; top: 338px; text-decoration: none; font:  italic bold 12pt Arial; color: #9C1003" title="">(E-mail address)</P>
+<P style="cursor: default; position: absolute; left: 474px; top: 195px; text-decoration: none; font:  italic bold 12pt Arial; color: #9C1003" title="">PC only, not Mac-compatible</P>
+</BODY>
+</HTML>

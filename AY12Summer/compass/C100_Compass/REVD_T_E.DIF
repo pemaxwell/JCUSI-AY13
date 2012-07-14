@@ -1,0 +1,33 @@
+
+                                                                      Page 1   
+
+
+
+REV_D\*.*                                    .\*.*                         
+
+
+.               < subdirectory >    *      * .              < subdirectory >   
+..              < subdirectory >    *      * ..             < subdirectory >   
+040055XD.DWG         29023 04-09-92 *      * < absent >                        
+C100    .C           40392 04-09-92 *  !=  * C100    .C          53615 05-10-93
+C100    .H            6412 04-09-92 *  !=  * C100    .H           6480 05-06-93
+C100USR .C            8493 04-09-92 *  !=  * C100USR .C          11194 05-06-93
+C100USR .DSK          2911 04-09-92 *      * < absent >                        
+C100USR .EXE        320449 04-09-92 *  !=  * C100USR .EXE       296381 05-10-93
+C100USR .H             454 04-09-92 *  ==  * C100USR .H            454 03-12-92
+C100USR .LNT           168 04-09-92 *      * < absent >                        
+C100USR .PRJ          8707 04-09-92 *  !=  * C100USR .PRJ         8745 05-10-93
+CLIST   .TXT          1019 04-09-92 *  ==  * CLIST   .TXT         1019 10-01-91
+COMMSPEC.H           18299 04-09-92 *      * < absent >                        
+< absent >                          *      * DELTA   .CFG          864 12-03-92
+FLD_CAL .C           13190 04-09-92 *  !=  * FLD_CAL .C          16062 05-06-93
+PRM_EDIT.C           22869 04-09-92 *  !=  * PRM_EDIT.C          28264 05-10-93
+REVC_T_D.DIF          1657 04-09-92 *      * < absent >                        
+< absent >                          *      * REV_D          < subdirectory >   
+SYS_DFLT.C            5201 04-09-92 *  !=  * SYS_DFLT.C          12666 05-05-93
+TERMINAL.C            3448 04-09-92 *  !=  * TERMINAL.C           6781 05-05-93
+< absent >                          *      * TESTPROC.SAM        24538 05-04-93
+USER    .C            7755 04-09-92 *  ==  * USER    .C           7755 03-12-92
+< absent >                          *      * VCS     .CFG          633 04-20-93
+
+* * * END OF LISTING * * *

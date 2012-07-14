@@ -1,0 +1,5 @@
+1. Improve the connection used between the paybreak and the power bar. This is a loose connection and will fail only at the most invconvenient time.
+
+
+
+2. Vent the Artigo enclosure. At one point this summer the Artigo locked up. Upon investigating I found the ARTIGO was very hot, after cooling it down and placing a fan on it, I restarted it with no problems. I suspect it was the excess heat that caused the problem.

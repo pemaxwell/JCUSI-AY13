@@ -1,0 +1,60 @@
+*BAUD_RATE
+9600
+4800
+2400
+1200
+600
+300
+*MESSAGE_UNITS
+d - Degrees
+m - Mils
+*MESSAGE_TYPE
+0 - Standard NMEA
+1 - KVH Heading
+2 - Corrected X & Y
+3 - Uncorrected X & Y
+*MESSAGE_RATE
+600 - 10 Hz (10 per second)
+300 - 5 Hz (5 per second)
+120 - 2 Hz (2 per second)
+60  - 1 Hz (1 per second)
+30  - 0.5 Hz (every 2 seconds)
+12  - 0.2 Hz (every 5 seconds)
+6   - 0.1 Hz (every 10 seconds)
+1   - 0.02 Hz (every minute)
+*DIGITAL_TYPE
+0 - Continuous
+1 - Strobed
+*DIGITAL_FORMAT
+0 - Off: No Output
+1 - BCD (4 characters)
+2 - Gray Code (16 bits)
+3 - Binary (16 bits)
+4 - LRX Display
+5 - NCSC Output
+*ANALOG_FORMAT
+0 - Linear
+1 - Hysteresis Linear
+2 - Sin/Cos/Ref
+*DAMPING_TYPE
+0 - Undamped
+1 - Single IIR
+2 - Sum and Dump
+3 - Double IIR
+4 - Window Average (when implemeted)
+*DAMPING_RATE
+0 - 3 seconds
+1 - 4.5 seconds
+2 - 6 seconds
+3 - 7.5 seconds
+4 - 9 seconds
+5 - 12 seconds
+6 - 14 seconds
+7 - 16 seconds
+8 - 20 seconds
+9 - 24 seconds
+*HEADING_TYPE
+t - True
+m - Magnetic
+
+

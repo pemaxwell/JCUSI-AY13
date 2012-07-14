@@ -1,0 +1,7 @@
+[autorun]
+icon=KVH_icon.ico
+label=C100
+open=C100.exe
+shell=runit
+shell\runit\command=C100.exe
+shell\runit=C100
